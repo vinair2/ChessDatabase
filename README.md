@@ -8,11 +8,12 @@ calculates win percentage based on moves played from the Chess Game API
 
 - Currently implementing pawn promotion and king in check functionality 
 
-
+# Demo  
+https://vinair2.github.io/ChessDatabase/
 
 # Credits  
-@LiChess-Org [(https://github.com/lichess-org/chess-openings)]  
+@LiChess-Org https://github.com/lichess-org/chess-openings  
 
-@zq99 [(https://github.com/zq99/pgn2data)]  
+@zq99 https://github.com/zq99/pgn2data 
 
-LiChess Elite Database Team [(https://database.nikonoel.fr/)]  
+LiChess Elite Database Team https://database.nikonoel.fr/
