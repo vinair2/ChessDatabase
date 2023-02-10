@@ -1,0 +1,299 @@
+
+.lightSquare{
+    background-color:white;
+   height:7.2125%;
+   width: 7.2125%;
+   padding: 0;
+   margin: 0;
+}
+
+.darkSquare{ 
+   /*background-color:  #d9d7c2;*/
+
+   background-color: #cab4a4;
+   height:7.2125%;
+   width: 7.2125%;
+   padding:0;
+   margin: 0;
+
+   /*background-color: rgba(232, 149, 149,0.7);*/
+}
+
+.lightSquare:hover {
+    box-shadow : inset 0px 0px 25px 3px rgb(232, 149, 149);
+    
+}
+.darkSquare:hover {
+    box-shadow : inset 0px 0px 25px 3px rgb(232, 149, 149);
+}
+
+.chessBoard{
+    border-style: solid;
+    border-color:black;
+    border-width: 3px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    height:57.7%;
+    width:28.9%;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.4);
+    padding: 0px;
+
+
+    /*box-shadow: 20px 20px 40px rgba(232,149,149,0.5);*/
+    
+    
+}
+
+.chessPiece{
+    /*width: 5.15%;
+    height: 5.15%; */
+    height:10%;
+    width: 10%;
+    transform: translate(-50%, -50%);
+    position:absolute
+}
+
+.pgnBox{
+    /*height:560px;*/
+    /*width:560px;*/
+    height:28%;
+    width:28.9%;
+    border-style: solid;
+    border-color:black;
+    border-width: 3px;
+    background-color: rgba(211,211,211,0.6);
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top: 32.5%;
+    left: 17%;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.4);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4vw;
+    font-style:italic;
+    padding: 0px;
+    text-align:left;
+    
+ 
+
+
+
+    /*border-color:rgba(232,149,149,0.7);*/
+    /*box-shadow: 20px 20px 40px rgba(232,149,149,0.4);*/
+}
+
+body{
+    background-color: #d9d7c2;
+    /*background-color: rgb(232, 149, 149);*/
+}
+
+.openingBox{
+    /*height:560px;*/
+    /*width:560px;*/
+    height:57.2%;
+    width:29.2%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 83%;
+    font-size: 0.6vw;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border-style: solid;
+    border-color:black;
+    border-width: 3px;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.4);
+    
+}
+
+.openingBox tr th {
+    background-color:#cab4a4;
+    text-align: center;
+    font-weight: bold;
+    /*height:7.2125%;*/
+    height: 12.5%;
+    min-height:12.5%;
+    max-height:12.5%;
+    font-size: 0.8vw;
+    padding: 1px 15px;
+} 
+
+.openingbox tr td {
+    padding: 1px 15px;
+    border-bottom: 1px solid darkgray;
+    min-height:12.5%;
+    max-height:12.5%;
+    height: 12.5%;
+    
+}
+
+.openingbox tbody:nth-of-type(odd){
+    background-color:#f3f3f3;
+
+}
+
+.openingBox tr td:nth-child(1){
+    text-align:center;
+    width: 10%
+
+}
+.openingBox tr td:nth-child(2){
+    text-align:center;
+    width:40%
+}
+.openingBox tr td:nth-child(3){
+    text-align:left;
+
+}
+
+.openingBox tbody {
+    min-height:12.5%;
+    max-height:12.5%;
+    height: 12.5%;
+}
+
+.tableLabelAH{
+    height:7.2125%;
+    width:28.9%;
+    
+    background-color: transparent;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top: 19%;
+    left: 50%;
+    user-select: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0vw;
+    font-style:italic;
+    padding: 0px;
+    text-align:center;
+}
+
+.tableLabel18{
+    height:57.7%;
+    width:7.2125%;
+    
+    background-color: transparent;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 34%;
+    user-select: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0vw;
+    font-style:italic;
+    padding: 0px;
+    text-align:center;
+}
+
+
+
+
+.gamesDBBox{
+    /*height:560px;*/
+    /*width:560px;*/
+    max-height:28%;
+    min-height: 28%;
+    min-width:29.2%;
+    max-width:29.2%;
+    border-style: solid;
+    border-color:black;
+    border-width: 3px;
+    background-color:#cab4a4;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top: 64%;
+    left: 17%;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.4);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8vw;
+    font-style:italic;
+    padding: 0px;
+    text-align:left;
+   
+
+
+
+
+
+
+    /*border-color:rgba(232,149,149,0.7);*/
+    /*box-shadow: 20px 20px 40px rgba(232,149,149,0.4);*/
+}
+
+.gamesDBBox{
+    /*height:560px;*/
+    /*width:560px;*/
+    max-height:28%;
+    min-height: 28%;
+    min-width:29.2%;
+    max-width:29.2%;
+    border-style: solid;
+    border-color:black;
+    border-width: 3px;
+    background-color:#cab4a4;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top: 64%;
+    left: 17%;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.4);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8vw;
+    font-style:italic;
+    padding: 0px;
+    text-align:left;
+   
+
+
+
+
+
+
+    /*border-color:rgba(232,149,149,0.7);*/
+    /*box-shadow: 20px 20px 40px rgba(232,149,149,0.4);*/
+}
+
+
+.gamesDBBox tr:nth-child(1) {
+    width: 28.9%;
+    min-height: 20%;
+    max-height: 20%;
+    text-align: center;
+}
+
+
+.gamesDBBox tr:nth-child(2){
+    min-height: 50%;
+    max-height: 50%;
+    height: 40%;
+    width: 100%;
+    text-align:center;
+    vertical-align: text-top;
+    background-color: white;
+    font-size: 0.6vw;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+   
+}
+.gamesDBBox tr:nth-child(3){
+    min-height: 30%;
+    max-height: 30%;
+    height: 40%;
+    width: 100%;
+    text-align:center;
+    vertical-align: text-top;
+    background-color: white;
+    font-size: 0.6vw;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    
+}
+
+.gamesDBBox tr:nth-child(2) th {
+    width:33%;
+}
+.gamesDBBox tr:nth-child(3) th{
+   width:33%;
+}
+
