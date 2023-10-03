@@ -1,11 +1,12 @@
 # ChessDatabase  
-- Chess Game API  
+- Programmed a dynamic chess game on a website, enabling users to enjoy interactive gameplay
+  
+- Set up a local Mongo Server and Database connected through Node.js to efficiently store and retrieve vast amounts of chess game data, ensuring seamless access and quick responses
+  
+- Organized and imported over 4 million games from the LiChess website into the local database, creating a comprehensive collection of matches for analysis and statistics generation
+  
+- Implemented an Opening Table that queries from thousands of chess openings, allowing players to access valuable data on various strategies and moves for different scenarios
 
-- Implemented an Opening Table that queries from thousands of chess openings  
-
-- Created a Mongo database that connects to local server consisting of over 4 million games on Lichess website and calculates win percentage based on moves played from the Chess Game API  
-
-- Currently implementing pawn promotion and king in check functionality 
 
 # Demo  
 https://vinair2.github.io/ChessDatabase/
